@@ -1,0 +1,12 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+nav > h1{
+    font-size: 45px;
+}
+.nav-title{
+    color: rgba(255, 72, 0, 0.699);
+}
