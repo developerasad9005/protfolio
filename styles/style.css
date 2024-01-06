@@ -8,6 +8,27 @@ body {
     width: 100%;
 }
 
+main section {
+    margin-top: 130px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 827px;
+    margin: auto;
+}
+
+
 /* nav styles here  */
 
 nav {
@@ -67,9 +88,10 @@ nav ul li a {
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
 
@@ -90,10 +112,98 @@ nav ul li a {
     margin-top: 0px;
     margin-bottom: 10px;
 }
-.banner-des{
+
+.banner-des {
     margin-top: 0px;
     margin-bottom: 50px;
 }
-.banner .cv{
+
+.banner .cv {
     margin-right: 20px;
+}
+
+/* end header section  */
+
+
+
+/* start main section  */
+
+
+
+/* about section style start */
+.about {
+    max-width: 1140px;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    margin: 131px auto;
+    margin-bottom: 0;
+}
+
+.about-child-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.about-child-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.about-child-caption {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* end about style  */
+
+/* start working style here  */
+
+.working {
+    margin: 0 auto;
+    max-width: 1433px;
+    padding: 131px 156px;
+}
+
+.working-child-title {
+    color: #181818;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.working-child-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    width: 201px;
+}
+
+.working-child-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.working-child {
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
+}
+.working .logo{
+    margin-bottom: 20px;
 }
